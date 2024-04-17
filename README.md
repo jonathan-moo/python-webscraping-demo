@@ -29,3 +29,14 @@ This is to tightly control what modules and packages we install for our app, so 
         * It is not in parity, you might run into errors running it. Ensure version parity between the ChromeDriver and your Chrome browser.
         * Download ChromeDriver here: https://googlechromelabs.github.io/chrome-for-testing/
 
+## To test if your environment variables are setup to use ChromeDriver
+Run `notebooks/test_your_chromedriver_setup.ipynb`
+* You would have to install each dependency separately. Use the `Pipfile` or the `requirements.txt` for guidance.
+
+## If your environment variables do not work
+* Download and store `chromedriver.exe` in the `/drivers` folder
+* Run the `notebooks/test_executable_setup.ipynb`
+
+In the above tests, you should see a Chrome application initialized within your local machine.
+
+To demo Python webscraping, run `notebooks/revolve_demo_scraping.ipynb`.
