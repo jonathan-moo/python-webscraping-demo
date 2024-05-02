@@ -8,6 +8,7 @@ bs4 = "*"
 ipykernel = "*"
 splinter = {extras = ["selenium4"], version = "*"}
 selenium = "*"
+pandas = "*"
 
 [dev-packages]
 
